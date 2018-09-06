@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ns2:TranscriptRequest xmlns:ns2="urn:org:pesc:message:TranscriptRequest:v1.2.0">
+	<ns2:TransmissionData>
+		<DocumentID>114821-20180730085353959-f8f</DocumentID>
+		<CreatedDateTime>2018-07-30T08:53:53.960-07:00</CreatedDateTime>
+		<DocumentTypeCode>Request</DocumentTypeCode>
+		<TransmissionType>Original</TransmissionType>
+		<Source>
+			<Organization>
+				<DUNS>013900836</DUNS>
+				<OrganizationName>Parchment</OrganizationName>
+			</Organization>
+		</Source>
+		<Destination>
+			<Organization>
+				<OPEID>01116700</OPEID>
+				<OrganizationName>Vermont Technical College</OrganizationName>
+			</Organization>
+		</Destination>
+		<DocumentProcessCode>PRODUCTION</DocumentProcessCode>
+		<RequestTrackingID>114823</RequestTrackingID>
+	</ns2:TransmissionData>
+	<ns2:Request>
+		<CreatedDateTime>2018-07-30T00:00:00.000-07:00</CreatedDateTime>
+		<Requestor>
+			<Person>
+				<SchoolAssignedPersonID>0188929</SchoolAssignedPersonID>
+				<Birth>
+					<BirthDate>1964-04-29</BirthDate>
+				</Birth>
+				<Name>
+					<FirstName>Terry</FirstName>
+					<LastName>Cloth</LastName>
+				</Name>
+				<AlternateName>
+					<FirstName>Terry</FirstName>
+					<LastName>Cloth</LastName>
+					<CompositeName>Cloth, Terry</CompositeName>
+				</AlternateName>
+				<Contacts>
+					<Address>
+						<AddressLine>1234 No Way</AddressLine>
+						<AddressLine>Denve</AddressLine>
+						<City>Denver</City>
+						<StateProvinceCode>CO</StateProvinceCode>
+						<PostalCode>80211</PostalCode>
+					</Address>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>555</AreaCityCode>
+						<PhoneNumber>5555555</PhoneNumber>
+					</Phone>
+					<Email>
+						<EmailAddress>ngeanetta+terry@parchment.com</EmailAddress>
+					</Email>
+				</Contacts>
+			</Person>
+		</Requestor>
+		<RequestedStudent>
+			<Person>
+				<SchoolAssignedPersonID>0188929</SchoolAssignedPersonID>
+				<Birth>
+					<BirthDate>1964-04-29</BirthDate>
+				</Birth>
+				<Name>
+					<FirstName>Terry</FirstName>
+					<LastName>Cloth</LastName>
+				</Name>
+				<AlternateName>
+					<FirstName>Terry</FirstName>
+					<LastName>Cloth</LastName>
+					<CompositeName>Cloth, Terry</CompositeName>
+				</AlternateName>
+				<Contacts>
+					<Address>
+						<AddressLine>1234 No Way</AddressLine>
+						<AddressLine>Denve</AddressLine>
+						<City>Denver</City>
+						<StateProvinceCode>CO</StateProvinceCode>
+						<PostalCode>80211</PostalCode>
+					</Address>
+					<Phone>
+						<CountryPrefixCode>1</CountryPrefixCode>
+						<AreaCityCode>555</AreaCityCode>
+						<PhoneNumber>5555555</PhoneNumber>
+					</Phone>
+					<Email>
+						<EmailAddress>ngeanetta+terry@parchment.com</EmailAddress>
+					</Email>
+				</Contacts>
+			</Person>
+			<Attendance>
+				<School>
+					<OrganizationName>Vermont Technical College</OrganizationName>
+					<OPEID>01116700</OPEID>
+				</School>
+				<EnrollDate>2014-01-01</EnrollDate>
+				<ExitDate>2018-12-31</ExitDate>
+				<AcademicAwardsReported>
+					<AcademicAwardDate>2018-01-01</AcademicAwardDate>
+				</AcademicAwardsReported>
+			</Attendance>
+			<UpdateContactsInformation>NoUpdate</UpdateContactsInformation>
+			<FeeDiscountRequestCode>PrepaidFee</FeeDiscountRequestCode>
+			<ReleaseAuthorizedIndicator>true</ReleaseAuthorizedIndicator>
+			<ReleaseAuthorizedMethod>ElectronicSignature</ReleaseAuthorizedMethod>
+			<ns2:UserDefinedExtensions>
+				<parchment:ude xmlns:parchment="http://www.avowsystems.com/pesc/transcript/request/v1.0/ude">
+					<Country>United States</Country>
+					<UnverifiedStudentId>0188929</UnverifiedStudentId>
+					<EnrollDates>2014-2018</EnrollDates>
+					<Source>SelfRegister</Source>
+				</parchment:ude>
+			</ns2:UserDefinedExtensions>
+		</RequestedStudent>
+		<Recipient>
+			<RequestTrackingID>114821</RequestTrackingID>
+			<Receiver>
+				<RequestorReceiverOrganization>
+					<Contacts>
+						<Address>
+							<AddressLine/>
+							<AddressLine/>
+							<City/>
+							<StateProvince/>
+							<PostalCode/>
+						</Address>
+						<Email>
+							<EmailAddress>ngeanett@gmail.com</EmailAddress>
+						</Email>
+					</Contacts>
+				</RequestorReceiverOrganization>
+			</Receiver>
+			<TranscriptHold>
+				<HoldType>Now</HoldType>
+			</TranscriptHold>
+			<TranscriptType>Undergraduate</TranscriptType>
+			<DeliveryMethod>Electronic</DeliveryMethod>
+			<ElectronicDelivery>
+				<ElectronicFormat>PDF</ElectronicFormat>
+				<ElectronicMethod>Email</ElectronicMethod>
+			</ElectronicDelivery>
+			<RushProcessingRequested>false</RushProcessingRequested>
+			<DeliveryInstruction/>
+			<TranscriptCopies>1</TranscriptCopies>
+			<ns2:UserDefinedExtensions>
+				<parchment:ude xmlns:parchment="http://www.avowsystems.com/pesc/transcript/request/v1.0/ude">
+					<DocumentName price="7.50">eTranscript</DocumentName>
+					<ParchmentNetwork>No</ParchmentNetwork>
+					<OrderID>91055</OrderID>
+					<DeliveryMode price="0.00">Electronic</DeliveryMode>
+					<DocumentDate price="0.00">07-30-2018 8:53:21</DocumentDate>
+					<EmailAddress price="0.00">ngeanett@gmail.com</EmailAddress>
+				</parchment:ude>
+			</ns2:UserDefinedExtensions>
+		</Recipient>
+	</ns2:Request>
+	<ns2:UserDefinedExtensions>
+		<parchment:ude xmlns:parchment="http://www.avowsystems.com/pesc/transcript/request/v1.0/ude">
+			<Country>United States</Country>
+			<EnrollDates>2014-2018</EnrollDates>
+			<Source>SelfRegister</Source>
+			<DocumentName price="7.50">eTranscript</DocumentName>
+			<ParchmentNetwork>No</ParchmentNetwork>
+			<OrderID>91055</OrderID>
+			<DeliveryMode price="0.00">Electronic</DeliveryMode>
+			<DocumentDate price="0.00">07-30-2018 8:53:21</DocumentDate>
+			<EmailAddress price="0.00">ngeanett@gmail.com</EmailAddress>
+		</parchment:ude>
+		<UnverifiedStudentId>0188929</UnverifiedStudentId>
+	</ns2:UserDefinedExtensions>
+</ns2:TranscriptRequest>
